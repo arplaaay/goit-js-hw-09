@@ -1,0 +1,29 @@
+body{
+    background-color: darkgrey;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+}
+
+.timer{
+    display:flex;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 30px;
+}
+
+.field:not(:last-child){
+    margin-right: 15px;
+}
