@@ -45,6 +45,9 @@ const timer = {
                 return;
             }
 
+            dateInputEl.disabled = true;
+            startButtonEl.disabled = true;
+            
             updateSpanTime(convertTime);
 
         }, 1000)
